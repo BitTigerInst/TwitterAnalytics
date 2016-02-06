@@ -34,4 +34,4 @@ Development Guildlines
 
 Owner
 -----
-@team: Octupus
+@team: Octupus team member: @tianwenlan @
