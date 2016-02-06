@@ -2,8 +2,9 @@
 
 Description
 -----------
-
 This is a term project from course 15619 Cloud Computing @ Carnegie Mellon University. The goal of this project is to practice integrating all parts learned from the course in designing, developing and deploying a real working solution.
+
+The project is to build a web service for Twitter data analysis. A raw dump of tweets that runs into tens of gigabytes was provided. The dataset will have to be stored within our web service. The web service should be able to handle a specific number of requests per second for several hours. However, the budget is limited, thus the task is to build an effective and cost efficient solution utilizing Amazon Web Services resources.
 
 Plan
 ----
@@ -15,7 +16,7 @@ Based on our experiences on web development and descriptions metioned above, we 
 
 Resource
 --------
-Class materials: The dataset collected from Twitter. Each file contains roughly 20,000 tweets stored in JSON format.
+Class materials: The dataset collected from Twitter provided by the instructor. Each file contains roughly 20,000 tweets stored in JSON format.
 
 Language & Framework
 --------------------
@@ -25,8 +26,7 @@ Language & Framework
 
 Development Guildlines 
 ----------------------
-The web service solution should provide data statistics on the twitter dataset. Users can submit
-queries about tweets based on userids or time.
+The web service solution should provide data statistics on the twitter dataset. Users can submit queries about tweets based on userids or time.
 
 - Front end should be able to receive and respond to queries.
   * The web service’s front end will have to handle the following query types through HTTP GET requests on port 80:
@@ -40,6 +40,7 @@ queries about tweets based on userids or time.
   * On demand instances for the live test.
 
 - ETL(Data extract, transform and load)
+ * Load the Twitter dataset into the database using the extract, transform and load (ETL) process in data warehousing.
 
 Owner
 -----
