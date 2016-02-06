@@ -10,9 +10,9 @@ Plan
 ----
 Based on our experiences on web development and descriptions metioned above, we take Feb, 2016 as the 1st stage with the primary goal of prototyping our own chat application following the Development Guildlines metioned below. Here're some tentative schedules.
 
-[2016/02/01 - 2016/02/07] Project Selection, Plan Discussion, and Proposal Draft Writing
-[2016/02/08 - 2016/02/29] System Design, Resource Discovery, Project Implementation, Document Writing
-[2016/03/01 - 2016/03/04] User Manual Writing and Video Presentation Making
+- [2016/02/01 - 2016/02/07] Project Selection, Plan Discussion, and Proposal Draft Writing
+- [2016/02/08 - 2016/02/29] System Design, Resource Discovery, Project Implementation, Document Writing
+- [2016/03/01 - 2016/03/04] User Manual Writing and Video Presentation Making
 
 Resource
 --------
