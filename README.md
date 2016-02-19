@@ -20,8 +20,8 @@ Class materials: The dataset collected from Twitter provided by the instructor. 
 
 Language & Framework
 --------------------
-+ Front-end: JavaScript
-+ Back-end: Java
++ Front-end: Java, Tomcat
++ Back-end: Python
 + Database: HBase or MySQL
 
 Development Guildlines 
