@@ -31,10 +31,10 @@ The web service solution provides data statistics on the twitter dataset. Users 
 
 - Front end should be able to receive and respond to queries.
   * The web service’s front end will have to handle the following query types through HTTP GET requests on port 80:
-     1. Heartbeat (q1)
-     2. Text of tweets (q2)
-     3. Number of tweets (q3)
-     4. Who retweeted a tweet (q4)
+     1. Heartbeat (q1): The query asks about the state of the web service. The front end server responds with the current timestamp.
+     2. Text of tweets (q2): The query asks for the tweets created at a specific second.
+     3. Number of tweets (q3): The query asks for the total number of tweets sent by a range of userids.
+     4. Who retweeted a tweet (q4): The query asks for the set of userids who have retweeted any tweet posted by a given userid.
 
 - Back end system is used to store the data to be queried.
   * Spot instances for the back end system development
