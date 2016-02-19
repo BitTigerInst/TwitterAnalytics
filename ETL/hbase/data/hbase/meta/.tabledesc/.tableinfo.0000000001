@@ -1,0 +1,19 @@
+PBUF
+
+hbasemeta
+IS_METAtrueY
+coprocessor$1H|org.apache.hadoop.hbase.coprocessor.MultiRowMutationEndpoint|536870911|ò
+info
+BLOOMFILTERNONE
+VERSIONS10
+	IN_MEMORYtrue
+KEEP_DELETED_CELLSFALSE
+DATA_BLOCK_ENCODINGNONE
+TTL
+2147483647
+COMPRESSIONNONE
+MIN_VERSIONS0
+
+BLOCKCACHEtrue
+	BLOCKSIZE8192
+REPLICATION_SCOPE0
