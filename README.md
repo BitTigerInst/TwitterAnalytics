@@ -10,9 +10,10 @@ Plan
 ----
 Based on our experiences on web development and descriptions metioned above, we take Feb, 2016 as the 1st stage with the primary goal of prototyping our own chat application following the Development Guildlines metioned below. Here're some tentative schedules.
 
-- [2016/02/01 - 2016/02/07] Project Selection, Plan Discussion, and Proposal Draft Writing
-- [2016/02/08 - 2016/02/29] System Design, Resource Discovery, Project Implementation, Document Writing
-- [2016/03/01 - 2016/03/04] User Manual Writing and Video Presentation Making
+- [2016/02/04 - 2016/02/07] Project Selection, Plan Discussion, and Proposal Draft Writing
+- [2016/02/08 - 2016/02/14] System Design, Resource Discovery
+- [2016/02/15 - 2016/02/21] Front-end Implementation,Back-end Implementation
+- [2016/02/22 - 2016/02/28] Back-end Implementation, Document Writing and Video Presentation Making
 
 Resource
 --------
@@ -26,7 +27,7 @@ Language & Framework
 
 Development Guildlines 
 ----------------------
-The web service solution should provide data statistics on the twitter dataset. Users can submit queries about tweets based on userids or time.
+The web service solution provides data statistics on the twitter dataset. Users can submit queries about tweets based on userids or time.
 
 - Front end should be able to receive and respond to queries.
   * The web service’s front end will have to handle the following query types through HTTP GET requests on port 80:
